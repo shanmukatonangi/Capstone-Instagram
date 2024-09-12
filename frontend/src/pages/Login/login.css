@@ -1,23 +1,161 @@
 .login{
     height: 97.5vh;
-    background-color: rebeccapurple;
-    width: 99vw;
+   
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 30px;
 }
+
 
 
 .login-image{
-    height: 70%;
-    width: 25%;
-    background-color: blue;
+    height: 75vh;
+    width: 20vw;
+    background-image: url(https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdG9pMGNsaHFieThlaHVnaTVpYmowNTI1OGY5dnJreWZyMnR5ZXNuZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/hsDY1IPzpP4DcB1Ba5/giphy.webp);
+    background-size: 110%;
+
+}
+
+.login-feilds{
+    height: 85vh;
+    width: 22vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.input-feilds{
+    height: 65%;
+   
+    width: 100%;
+   border: 1px solid rgb(219, 219, 219);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ justify-content: space-evenly;
+}
+.logo{
+    width: 90%;
+    height: 20%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo>img{
+    height: 100%;
+  
+}
+.details{
+     width: 80%;
+    height: 30%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap:5px
+
+}
+.details>input{
+
+    width: 100%;
+    height: 35px;
+    border: 1px solid rgb(219, 219, 219);
+    font-size: 12px;
+    color: rgb(219, 219, 219);
+}
+.details>button{
+    width: 102%;
+    height: 35px;
+    margin-top: 5px;
+    background-color: #42b5f3;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.forgot{
+      width: 80%;
+    height: 20%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    color: #365283;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+
+
+}
+
+.fg{
+    height: 20%;
+    width: 80%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.fg>img{
+    height: 100%;
+}
+
+.forgot>a{
+    color: #00376B;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 5px;
 }
 
 
-.login-feilds{
-    height: 70%;
-    width: 25%;
-    background-color: rgb(194, 234, 17);
+
+.sign-up{
+
+    height: 15%;
+    border: 1px solid rgb(219, 219, 219);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#sup{
+    color: #27aaf1;
+    font-weight: bold;
+}
+
+.apps{
+    height: 15%;
+   
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.app-stores{
+    height: 50%;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logos{
+    height: 40px;
+}
+.apps>p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
 }
