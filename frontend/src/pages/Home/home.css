@@ -1,0 +1,14 @@
+.home{
+    background-color: black;
+    display: flex;
+}
+.feed{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}

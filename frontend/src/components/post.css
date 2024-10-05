@@ -1,0 +1,93 @@
+.post{
+    height: 550px;
+    width: 400px;
+  margin: 10px;
+   
+}
+
+.pp{
+    height: 9% !important;
+    width: 200px;
+   
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.pp>img{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+.pp>p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.pp>h4{
+    font-size: 15px;
+    color: rgb(235, 222, 222);
+    margin-top: 5px;
+}
+.post-pic{
+    height: 65%;
+    width: 100%;
+  
+
+}
+.post-pic>img{
+    height: 100%;
+    width: 100%;
+   
+    
+}
+.icons{
+    height: 10%;
+    width: 100%;
+  
+    display: flex;
+    justify-content: space-between;
+}
+
+.icons-heart{
+    height: 100%;
+    width: 40%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.icons-save{
+    height: 100%;
+    width: 20%;
+  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.desc{
+    height: 9%;
+    width: 100%;
+   
+    display: flex;
+    align-items: center;
+    gap:10px
+    
+}
+.desc>p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 14px;
+    margin-top: 10px;
+}
+.likes{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    color: white;
+    font-size: 17px;
+    margin-top: 10px;
+
+}
