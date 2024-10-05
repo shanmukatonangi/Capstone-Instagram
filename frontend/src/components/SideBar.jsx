@@ -30,14 +30,14 @@ const SideBar = () => {
         <a href="#" class="nav-link text-white" aria-current="page" style={{fontSize:"18px"}}>
          <IoSearch style={{margin:"20px",fontWeight:"bold",fontSize:"25px"}} />
          
-         Search
+         Search 
         </a>
       </li>
       <li class="nav-item" style={{height:"60px"}}>
         <a href="#" class="nav-link text-white" aria-current="page" style={{fontSize:"18px"}}>
          <FaRegHeart style={{margin:"20px",fontWeight:"bold",fontSize:"25px"}} />
          
-        Notifications
+        Notification
         </a>
       </li>
       <li class="nav-item" style={{height:"60px"}}>
