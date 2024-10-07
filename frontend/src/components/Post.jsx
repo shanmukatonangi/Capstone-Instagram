@@ -6,18 +6,18 @@ import { CiLocationArrow1 } from "react-icons/ci";
 import { TiLocationArrowOutline } from "react-icons/ti";
 import { CiBookmark } from "react-icons/ci";
 
-const Post = () => {
+const Post = ({igpost}) => {
   return (
     <div className='post'>
         <div className='pp'>
-            <img src='https://static.independent.co.uk/s3fs-public/thumbnails/image/2020/01/04/13/virat-kohli.jpg' />
-            <p>Virat Kohli</p>
+            <img src={igpost.dp} />
+            <p>{igpost.username}</p>
             <h4>5d</h4>
 
         </div>
 
         <div className='post-pic'>
-            <img src='https://circleofcricket.com/post_image/post_image_9632bcb.jpg' />
+            <img src={igpost.postpic} />
 
         </div>
         <div className='icons'>
@@ -33,11 +33,11 @@ const Post = () => {
 
 
         </div>
-        <p className='likes'>1,45,455 likes</p>
+        <p className='likes'>{igpost.likes} likes</p>
 
         <div className='desc'>
-            <p>Virat Kohli</p>
-            <p>🏏🏏</p>
+            <p>{igpost.username}</p>
+            <p>{igpost.desc}</p>
         </div>
       
     </div>
