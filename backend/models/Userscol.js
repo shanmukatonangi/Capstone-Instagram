@@ -15,6 +15,22 @@ const userSchema = new mongoose.Schema({
     password:{
         type:String,
         required:true
+    },
+    profilepic:{
+        type: String,
+
+    },
+    bio:{
+        type:String
+    },
+    followers:{
+        type:Array
+    },
+    followings:{
+        type:Array
     }
-    
+   
 })
+
+
+module.exports = mongoose.model("User",userSchema)
